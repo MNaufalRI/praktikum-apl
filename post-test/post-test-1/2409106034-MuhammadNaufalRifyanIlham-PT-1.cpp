@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     string nama = "Naufal", input_nama,  password = "034", input_password;
     int salah = 0, pilihan;
-    bool login, program = true;
+    bool program = true;
 
     do {
         cout << "Masukkan Nama anda : ";
@@ -13,14 +13,14 @@ int main() {
         cin >> input_password;
 
         if(input_nama == nama && input_password == password){
-            login = true;
+            program = true;
         }
         else {
-            login = false;
+            program = false;
             salah += 1;
         }
 
-    } while (login == false && salah < 3);
+    } while (program == false && salah < 3);
 
     while (program){
     cout << R"(
