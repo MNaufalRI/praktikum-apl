@@ -114,9 +114,9 @@ int main() {
 =====================================================
 )" << endl;
                         
-cout << "\nMasukkan Pilihan : ";
-cin >> pilihan;
-system("cls");
+                    cout << "\nMasukkan Pilihan : ";
+                    cin >> pilihan;
+                    system("cls");
 
                     switch(pilihan) {
                             case 1:
